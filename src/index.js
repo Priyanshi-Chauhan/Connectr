@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import {App} from './components';
 import {ToastProvider} from 'react-toast-notifications';
-import { AuthProvider, PostsProvider } from './providers';  // {} inside curly braces because its a named export not a default export
-
+import { AuthProvider, PostsProvider } from './providers';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

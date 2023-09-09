@@ -5,14 +5,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .logo {
-    color: #fff;
-    font-size: 35px;
-  }
-  .logoIcons {
-    font-size: 40px;
-    color: #ece60e;
-  }
+
   .nav .userDp {
     height: 40px;
   }
@@ -22,6 +15,19 @@
   }
   .nav span {
     margin-left: 10px;
+  
+  }
+
+  .nav .logo{
+    height: 45px;
+    width:45px;
+  }
+  .nav .con {
+        color:white;
+    text-decoration : none;
+    font-size : 25px;
+    font-weight : 600;
+
   }
   .nav .rightNav {
     display: flex;
